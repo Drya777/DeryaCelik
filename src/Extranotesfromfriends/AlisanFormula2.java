@@ -1,9 +1,13 @@
 package Extranotesfromfriends;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
 public class AlisanFormula2 {
         public static void main(String[] args) {
             //Arraylist <DataType> VariableName = new ArrayList<>(); formula of ArrayList
-            ArrayList<Integer>MyNewArray = new ArrayList<>();//how to create formula
+            ArrayList<Integer> MyNewArray = new ArrayList<>();//how to create formula
 
 /*
 Basic operations of Arraylist
@@ -115,7 +119,7 @@ remove element
             NewOne.addAll(Arrays.asList(11,2,35));
 
             //SORTING ARRAYLIST FROM SMALL TO BIG            Collections.sort(arraylistName) for sort(choose list <T> list)
-            Collections.sort(NewOne); // it will sort arraylist as 2,11,35
+           Collections.sort(NewOne); // it will sort arraylist as 2,11,35
 
             //SORTING ARRAYLIST FROM BIG TO SMALL   Collections.sort(ArrayListName,Collections.reverseOrder())
             Collections.sort(NewOne,Collections.reverseOrder()); // it will sort as 35,11,2
@@ -136,4 +140,4 @@ remove element
             Collections.shuffle(NewOne); //It replaces the indexes of elements randomly
 
         }
-        }
+}
